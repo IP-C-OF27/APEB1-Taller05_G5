@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Ejercicio02_DiaSemana {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.print("Deme un numero del dia (1 a 7");
+        System.out.print("Deme un numero del dia (1 a 7): ");
         int dia = tcl.nextInt();
         String msjDia;
         switch (dia) 
@@ -38,7 +38,7 @@ public class Ejercicio02_DiaSemana {
             default:
                 msjDia = "error";
         } //FIN SENTENCIA DE SELECCION MULTIPLE
-        System.out.println("El numero: " + dia + "corresponde a: " + msjDia);
+        System.out.println("El numero: " + dia + " corresponde a: " + msjDia);
     }
 }
 /***
