@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Ejercicio 01: "Mayor de tres números: Dados tres números distintos, determine
  * cuál es el mayor."
- * @author NombreAutor
+ * @author Edison, Jostyn
  * @version 1.0
  */
 public class Ejercicio03_MayordeTresNumeros {
