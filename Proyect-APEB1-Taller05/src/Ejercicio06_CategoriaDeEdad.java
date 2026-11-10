@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio 01: "Categoría de Edad: Clasificar a una persona en una categoría
+ * Ejercicio 06: "Categoría de Edad: Clasificar a una persona en una categoría
  * de edad (niño, adolescente, adulto) en función de su edad."
  * @author Edison, Jostyn
  * @version 1.0

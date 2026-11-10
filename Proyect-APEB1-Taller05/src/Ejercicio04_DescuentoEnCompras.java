@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio 01: "Descuento en Compras: Calcular el precio final de un producto
+ * Ejercicio 04: "Descuento en Compras: Calcular el precio final de un producto
  * con un descuento del 10% si el precio original es mayor de $100 ; De lo
  * contrario, no hay descuento."
  * @author Edison, Jostyn

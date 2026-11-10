@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 /**
- * Ejercicio 01: "Año Bisiesto: Comprobar si un año ingresado es bisiesto o no.
+ * Ejercicio 05: "Año Bisiesto: Comprobar si un año ingresado es bisiesto o no.
  * Si es bisiesto, muestra un mensaje especial."
  * @author Edison, Jostyn
  * @version 1.0
