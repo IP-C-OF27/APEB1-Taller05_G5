@@ -12,16 +12,18 @@ public class Ejercicio01_LejibleVotacion {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
         int edad;
-        System.out.println("Dame edad ");
+        System.out.print("Dame edad ");
         edad = tcl.nextInt();
         if (edad >= 16)
-            System.out.println("Lejible para votas ");
+            System.out.print("Lejible para votas ");
         else
-            System.out.println("No Lejible para votar ");
+            System.out.print("No Lejible para votar ");
     }
 }
 
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * rum:
+ * Dame edad 20
+ * Lejible para votas BUILD SUCCESSFUL (total time: 14 seconds)
  */

@@ -43,9 +43,16 @@ public class Ejercicio02_DiaSemana {
 }
 /***
  * EVIDENCIA DEL RUN:
+<<<<<<< HEAD
  *run:
 Deme un numero del dia (1 a 7): 2
 El numero: 2 corresponde a: Martes
 BUILD SUCCESSFUL (total time: 9 seconds)
 
+=======
+ * run:
+ * Deme un numero del dia (1 a 7): 5
+ * El numero: 5 corresponde a: Viernes
+ * BUILD SUCCESSFUL (total time: 11 seconds)
+>>>>>>> f228f2a659c1482fa9f28424cc6f166ff12cf39c
  */

@@ -30,8 +30,8 @@ public class Ejercicio08_CalculadoraDeIMC {
             } else {
                 Categoria = "Obesidad ";
             }
-            System.out.println("Su IMC es: %.2f%n" + imc);
-            System.out.println("Categoria: " + Categoria);
+            System.out.print("Su IMC es: " + imc);
+            System.out.print("Categoria: " + Categoria);
         }
     }
 }

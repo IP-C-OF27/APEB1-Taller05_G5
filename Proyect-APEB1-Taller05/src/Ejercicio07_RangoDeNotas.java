@@ -10,22 +10,24 @@ import java.util.Scanner;
 public class Ejercicio07_RangoDeNotas {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.println("Ingresa la calificacion (0-100): ");
+        System.out.print("Ingresa la calificacion (0-100): ");
         double nota = tcl.nextDouble();
         if (nota < 0 || nota > 100) {
-            System.out.println("La calificacion no es valida ");
+            System.out.print("La calificacion no es valida ");
         } else if (nota >= 90) {
-            System.out.println("Letra A ");
+            System.out.print("Letra A ");
         } else if (nota >= 80) {
-            System.out.println("Letra B ");
+            System.out.print("Letra B ");
         } else if (nota >= 70) {
-            System.out.println("Letra C ");
+            System.out.print("Letra C ");
         } else {
-            System.out.println("Letra D ");
+            System.out.print("Letra D ");
         }
     }
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+ * Ingresa la calificacion (0-100): 70
+ * Letra C BUILD SUCCESSFUL (total time: 9 seconds)
  */

@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class Ejercicio03_MayordeTresNumeros {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.println("Ingresa el primer numero ");
+        System.out.print("Ingresa el primer numero ");
         double a = tcl.nextDouble();
-        System.out.println("Ingresa el segundo numero ");
+        System.out.print("Ingresa el segundo numero ");
         double b = tcl.nextDouble();
-        System.out.println("Ingresa el tercer numero ");
+        System.out.print("Ingresa el tercer numero ");
         double c = tcl.nextDouble();
         double mayor;
         if (a > b && a > c) {
@@ -29,5 +29,9 @@ public class Ejercicio03_MayordeTresNumeros {
 
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+ * Ingresa el primer numero 9
+ * Ingresa el segundo numero 5
+ * Ingresa el tercer numero 2
+ * BUILD SUCCESSFUL (total time: 25 seconds)
  */
