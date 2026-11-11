@@ -43,5 +43,9 @@ public class Ejercicio02_DiaSemana {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ *run:
+Deme un numero del dia (1 a 7): 2
+El numero: 2 corresponde a: Martes
+BUILD SUCCESSFUL (total time: 9 seconds)
+
  */

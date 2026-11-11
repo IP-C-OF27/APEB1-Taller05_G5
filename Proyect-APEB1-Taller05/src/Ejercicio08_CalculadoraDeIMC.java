@@ -12,12 +12,12 @@ import java.util.Scanner;
 public class Ejercicio08_CalculadoraDeIMC {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.println("Ingresa el peso en kilogramos: ");
+        System.out.print("Ingresa el peso en kilogramos: ");
         double peso = tcl.nextDouble();
-        System.out.println("Ingresa la altura en metros: ");
+        System.out.print("Ingresa la altura en metros: ");
         double altura = tcl.nextDouble();
         if (peso <= 0 || altura <= 0) {
-            System.out.println("Los datos igresados no son validos ");
+            System.out.print("Los datos igresados no son validos ");
         } else {    
             double imc = peso / (altura * altura);
             String Categoria;
