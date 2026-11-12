@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Ejercicio06_CategoriaDeEdad {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
+        System.out.print("Ingresa la clasificasion de edad ");
         int edad = tcl.nextInt();
         if (edad > 0) {
             System.out.print("La edad no es valida ");
@@ -26,5 +27,7 @@ public class Ejercicio06_CategoriaDeEdad {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+ * Ingresa la clasificasion de edad 20
+ * La edad no es valida BUILD SUCCESSFUL (total time: 5 seconds)
  */
