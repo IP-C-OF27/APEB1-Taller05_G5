@@ -37,5 +37,8 @@ public class Ejercicio08_CalculadoraDeIMC {
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+ * Ingresa el peso en kilogramos: 24
+ * Ingresa la altura en metros: 25
+ * Su IMC es: 0.0384Categoria: Bajo peso BUILD SUCCESSFUL (total time: 22 seconds)
  */

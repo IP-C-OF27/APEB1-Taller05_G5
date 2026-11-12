@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Ejercicio03_MayordeTresNumeros {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.print("Dame 3 num: ");
+        System.out.print("Ingresa 3 numeros: ");
         int n1 = tcl.nextInt(), n2 = tcl.nextInt(), n3 = tcl.nextInt(), mayor;
         if (n1 > n2)
             mayor = n1;
@@ -18,7 +18,7 @@ public class Ejercicio03_MayordeTresNumeros {
             mayor = n2;
         if (mayor < n3)
             mayor = n3;
-        System.out.print("mayor: " + mayor);
+        System.out.print("El numero mayor: " + mayor);
         } 
     }    
 /***

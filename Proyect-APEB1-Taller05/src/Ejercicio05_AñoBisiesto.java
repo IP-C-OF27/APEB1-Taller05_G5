@@ -10,13 +10,13 @@ import java.util.Scanner;
 public class Ejercicio05_AñoBisiesto {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.print("ingresa un año ");
+        System.out.print("ingresa un año: ");
         int anio = tcl.nextInt();
         if ((anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0)) {
-            System.out.print("El año " + anio + "es bisiesto. ");
-            System.out.print("¡mensaje especial! Febrero tiene 29 dias este año. ");
+            System.out.print("El año " + anio + "es bisiesto: ");
+            System.out.print("¡mensaje especial! Febrero tiene 29 dias este año: ");
         } else {
-            System.out.print("El año " + anio + "no es bisiesto. ");
+            System.out.print("El año " + anio + "no es bisiesto: ");
         }
         
     }
