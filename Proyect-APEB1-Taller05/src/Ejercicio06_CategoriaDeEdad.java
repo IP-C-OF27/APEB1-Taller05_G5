@@ -12,22 +12,28 @@ public class Ejercicio06_CategoriaDeEdad {
         Scanner tcl = new Scanner(System.in);
         System.out.print("Ingresa la clasificasion de edad ");
         int edad = tcl.nextInt();
+        String Categoria = null;
         if (edad > 0) {
-            System.out.print("La edad no es valida ");
+            Categoria = "La edad no es valida";
         } else if (edad <= 12) {
             System.out.print("Categoria: niño ");
         } else if (edad <= 17) {
-            System.out.print("Categoria: adolescente ");
+            Categoria = "Categoria: adolescente";
         } else {
-            System.out.print("Categoria: adulto ");
+            Categoria = "Categoria: adulto";
             
         }
+        System.out.println("La edad: " + edad );
+        System.out.println("La categoria: " + Categoria );
     }
     
 }
 /***
  * EVIDENCIA DEL RUN:
  * run:
- * Ingresa la clasificasion de edad 20
- * La edad no es valida BUILD SUCCESSFUL (total time: 5 seconds)
+ * Ingresa la clasificasion de edad 
+ * 20
+ * La edad: 20
+ * La categoria: La edad no es valida
+ * BUILD SUCCESSFUL (total time: 6 seconds)
  */
