@@ -10,15 +10,15 @@ import java.util.Scanner;
 public class Ejercicio06_CategoriaDeEdad {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.print("Ingresa la clasificasion de edad ");
+        System.out.print("Ingresa tu edad: ");
         int edad = tcl.nextInt();
         String Categoria = null;
-        if (edad > 0) {
+        if (edad < 0) {
             Categoria = "La edad no es valida";
         } else if (edad <= 12) {
-            System.out.print("Categoria: niño ");
+            System.out.print("Categoria: niño: ");
         } else if (edad <= 17) {
-            Categoria = "Categoria: adolescente";
+            Categoria = "Categoria: adolescente: ";
         } else {
             Categoria = "Categoria: adulto";
             
@@ -31,9 +31,8 @@ public class Ejercicio06_CategoriaDeEdad {
 /***
  * EVIDENCIA DEL RUN:
  * run:
- * Ingresa la clasificasion de edad 
- * 20
- * La edad: 20
- * La categoria: La edad no es valida
- * BUILD SUCCESSFUL (total time: 6 seconds)
+ * Ingresa tu edad: 30
+ * La edad: 30
+ * La categoria: Categoria: adulto
+ * BUILD SUCCESSFUL (total time: 15 seconds)
  */

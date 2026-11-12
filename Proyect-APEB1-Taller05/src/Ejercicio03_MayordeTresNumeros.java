@@ -10,28 +10,20 @@ import java.util.Scanner;
 public class Ejercicio03_MayordeTresNumeros {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.print("Ingresa el primer numero ");
-        double a = tcl.nextDouble();
-        System.out.print("Ingresa el segundo numero ");
-        double b = tcl.nextDouble();
-        System.out.print("Ingresa el tercer numero ");
-        double c = tcl.nextDouble();
-        double mayor;
-        if (a > b && a > c) {
-            mayor = a;
-        }else if (b > c) {
-            mayor = b;
-        }else {
-            mayor = c;
+        System.out.print("Dame 3 num: ");
+        int n1 = tcl.nextInt(), n2 = tcl.nextInt(), n3 = tcl.nextInt(), mayor;
+        if (n1 > n2)
+            mayor = n1;
+        else 
+            mayor = n2;
+        if (mayor < n3)
+            mayor = n3;
+        System.out.print("mayor: " + mayor);
         } 
     }    
-}
-
 /***
  * EVIDENCIA DEL RUN:
  * run:
- * Ingresa el primer numero 9
- * Ingresa el segundo numero 5
- * Ingresa el tercer numero 2
- * BUILD SUCCESSFUL (total time: 25 seconds)
+ * Dame 3 num: 1 3 2
+ * mayor: 3BUILD SUCCESSFUL (total time: 7 seconds)
  */
