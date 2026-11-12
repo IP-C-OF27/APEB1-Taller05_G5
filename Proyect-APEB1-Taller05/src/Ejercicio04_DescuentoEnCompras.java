@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Ejercicio04_DescuentoEnCompras {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.print("Ingrese el precio original del producto $ ");
+        System.out.print("Ingrese el precio original del producto: $ ");
         double precio = tcl.nextDouble();
         double precioFinal;
         if (precio > 100 ) {
@@ -20,7 +20,7 @@ public class Ejercicio04_DescuentoEnCompras {
             System.out.print("Si tiene descuento del 10%: $ " + descuento );
         } else {
             precioFinal = precio;
-            System.out.print("No tiene descuento ");
+            System.out.print("No tiene descuento: ");
         }
         System.out.print("Precio final: $ " + precioFinal);
     }

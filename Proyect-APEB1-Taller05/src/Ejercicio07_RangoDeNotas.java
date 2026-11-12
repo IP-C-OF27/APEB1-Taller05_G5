@@ -15,13 +15,13 @@ public class Ejercicio07_RangoDeNotas {
         if (nota < 0 || nota > 100) {
             System.out.print("La calificacion no es valida ");
         } else if (nota >= 90) {
-            System.out.print("Letra A ");
+            System.out.print("Letra A: ");
         } else if (nota >= 80) {
-            System.out.print("Letra B ");
+            System.out.print("Letra B: ");
         } else if (nota >= 70) {
-            System.out.print("Letra C ");
+            System.out.print("Letra C: ");
         } else {
-            System.out.print("Letra D ");
+            System.out.print("Letra D: ");
         }
     }
 }
